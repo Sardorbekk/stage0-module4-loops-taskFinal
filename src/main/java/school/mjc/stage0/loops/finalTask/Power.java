@@ -2,6 +2,13 @@ package school.mjc.stage0.loops.finalTask;
 
 public class Power {
     public void printPower(int numberToPrint, int power) {
+ // i should calculate the power of 10; power is 3; so result have to be 1000
+   int result=1;
+        for (int i=0;i<power;i++){
+       result=result*numberToPrint;
+   }
+        System.out.println(result);
+
 
     }
 
